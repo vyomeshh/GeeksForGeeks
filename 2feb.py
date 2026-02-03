@@ -53,4 +53,3 @@ class Solution:
         # 3. Return the maximum of:
         # - The standard max subarray (max_so_far)
         # - The circular max (total_sum - min_so_far)
-        return max(max_so_far, total_sum - min_so_far)
