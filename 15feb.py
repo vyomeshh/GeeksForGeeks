@@ -10,7 +10,8 @@ Output: 55
 Explanation: With 5 packets for 5 students, each student will receive one packet, so the difference is 56 - 1 = 55.
 Constraints:
 1 ≤ m <= arr.size ≤ 105
-1 ≤ arr[i] ≤ 109'''class Solution:
+1 ≤ arr[i] ≤ 109'''
+class Solution:
     def findMinDiff(self, arr, m):
         n = len(arr)
         
